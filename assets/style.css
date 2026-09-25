@@ -225,6 +225,26 @@ section.legal-section a:hover {
   color: var(--primary-dark);
 }
 
+section.legal-section ul,
+section.legal-section ol {
+  color: var(--text-secondary);
+  margin: 0 0 12px 22px;
+}
+
+section.legal-section li {
+  margin-bottom: 8px;
+}
+
+section.legal-section code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas,
+    "Liberation Mono", monospace;
+  font-size: 0.9em;
+  background: var(--surface-alt);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1px 6px;
+}
+
 /* ---------- Landing / index page ---------- */
 .landing-hero {
   text-align: center;
@@ -285,6 +305,10 @@ section.legal-section a:hover {
 
 .doc-tile .icon.terms {
   background: linear-gradient(135deg, var(--accent), #0E7490);
+}
+
+.doc-tile .icon.deletion {
+  background: linear-gradient(135deg, #EF4444, #B91C1C);
 }
 
 .doc-tile h2 {
